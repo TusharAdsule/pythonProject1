@@ -7,6 +7,7 @@ num2 = int(input("Enter num2 : "))
 print(num1)
 print(num2)
 
+
 print("Max of ", num1, " and ", num2, " is : ", max(num1,num2))
 
 print("Value of ", num1, " to the power of ", num2, " is : ", pow(num1,num2))
