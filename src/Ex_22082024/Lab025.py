@@ -1,36 +1,29 @@
-# ✅ Functions
-import math
+#  LOOPs
 
 
-# 1. Built In.py - Created by Python Guys
-# input()
-# print()
-# max()
-# type()
-# id()
-# pow()
-# len()
-# list()
-# math.cos()
-# range()
-# math.factorial()
-# sorted()
-# int()
-# str()
-# #random()
-# float()
-# bool()
-# str.lower()
-# str.upper()
+# Print Hello World 10 times
+
+print("Hello World")
+print("Hello World")
+print("Hello World")
+print("Hello World")
+print("Hello World")
+print("Hello World")
+print("Hello World")
+print("Hello World")
+print("Hello World")
+
+# Loop
+# Repeat a block of code multiple times.
 
 
-# 2. Custom created, User Defined
-# definition
-def greet():
-    print("Hello, there!!")
+# for Loop
+# can execute a block of code multiple times
+# syntax
 
+# for, range?
+# for i in range(1,10):
+#     print(i)
 
-# calling
-greet()
-greet()
-greet()
+x = list(range(1, 10, 1))
+print(x)
